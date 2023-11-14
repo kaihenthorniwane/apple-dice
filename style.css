@@ -14,7 +14,6 @@ body {
 }
 
 #canvas-wrapper {
-    margin-bottom: 100px;
     background-color: #fbfbfd;
     padding: 20px;
     padding-bottom: 80px;
@@ -22,6 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
     position: relative;
     
 }
