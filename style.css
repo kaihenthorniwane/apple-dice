@@ -26,6 +26,13 @@ body {
     margin-bottom: 100px;
 }
 
+#canvas-hider{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
 #canvas{
     width: 100%;
     min-width: 650px;
@@ -40,7 +47,7 @@ body {
     color: #0066cc;
 }
 
-.success-button-wrapper {
+#success-button-wrapper {
     position: absolute;
     bottom: 0px;
     transform: translateY(50%);
