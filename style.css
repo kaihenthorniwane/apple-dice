@@ -1,0 +1,62 @@
+
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("./assets/fonts/SF-Pro-Display-Regular.otf");
+}
+
+body {
+    font-family: "SF Pro Display", sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+#canvas-wrapper {
+    background-color: #fbfbfd;
+    padding: 20px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#canvas{
+    width: 100%;
+    min-width: 650px;
+}
+
+.chevron {
+    min-width: 1.5rem;
+    width: 1.5rem;
+}
+
+.blue-link {
+    color: #0066cc;
+}
+
+.success-button-wrapper {
+    position: absolute;
+    bottom: 0px;
+    transform: translateY(50%);
+}
+
+.success-button {
+    background-color: #0066cc;
+    color: white;
+}
+
+.animate-it{
+    animation-name: reveal;
+    animation-duration: 500ms;
+    animation-timing-function: cubic-bezier(.11,1.55,0,.99)
+}
+
+@keyframes reveal {
+    from {transform: scale(0);}
+    to {transform: scale(1);}
+}
