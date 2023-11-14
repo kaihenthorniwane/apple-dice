@@ -47,7 +47,7 @@ body {
     color: #0066cc;
 }
 
-#success-button-wrapper {
+.success-button-wrapper {
     position: absolute;
     bottom: 0px;
     transform: translateY(50%);
